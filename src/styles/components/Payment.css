@@ -1,0 +1,102 @@
+.Payment {
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2vw;
+  grid-row-gap: 1.5vw;
+  display: grid;
+  margin-top: 10vw;
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+}
+
+.Payment-content {
+  margin: 1vw;
+  width: 90vw;
+}
+
+.Payment-content h3 {
+  font-size: 1.5vw;
+}
+
+.Payment-back {
+  margin: 1vw 0 0 0;
+}
+.Payment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Payment-item .fas {
+  margin: 0 0 0 1vw;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.Payment-text {
+  font-size: 1vw;
+}
+
+.Payment-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Payment-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1.5vw;
+}
+.Payment-element h4 {
+  margin: 0;
+}
+
+.Payment-error {
+  width: 30vw;
+  background-color: #dc6565;
+  border: 0.1vw solid #ba2626;
+  border-radius: 1vw;
+}
+
+.Payment-error p {
+  color: #ba2626;
+  font-size: 1vw;
+  margin: 1vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .Payment {
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2vw;
+    grid-row-gap: 1.5vw;
+    display: grid;
+    margin-top: 10vw;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+  }
+
+  .Payment-content {
+    margin: 1vw;
+    width: 90vw;
+  }
+
+  .Payment-content h3 {
+    font-size: 3vmin;
+  }
+
+  .Payment-text {
+    font-size: 3vmin;
+  }
+  .Payment-element h4 {
+    margin: 0;
+    font-size: 3vmin;
+  }
+  .Payment-error p {
+    color: #ba2626;
+    font-size: 3vmin;
+    margin: 1vw;
+  }
+}

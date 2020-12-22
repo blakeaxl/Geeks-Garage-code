@@ -1,0 +1,203 @@
+.Information {
+  width: 100vw;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Information-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.Information-head h2 {
+  font-size: 1.5vw;
+}
+
+.Information-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+.Information-sidebar {
+  margin: 1vw 0 0 0;
+}
+
+.Information-sidebar h3 {
+  font-size: 1vw;
+}
+
+.Information-back {
+  margin: 1vw 0 0 0;
+  font-size: 1.2vw;
+}
+.Information-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Information-item .fas {
+  margin: 0 0 0 1vw;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.Information-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Information-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.1vw solid #eee;
+}
+.Information-element h4 {
+  margin: 0;
+  font-size: 1vw;
+}
+h2 {
+  margin: 0 0 1vw 0;
+  padding: 0;
+  font-size: 1vw;
+}
+h3 {
+  font-size: 1.2vw;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.Information-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Information-form form {
+  width: 95%;
+}
+
+input {
+  background-color: #fff;
+  background-image: none;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  font-feature-settings: 'tnum';
+  font-size: 0.8vw;
+  padding-left: 1vw;
+  height: 2vw;
+  width: 95%;
+  list-style: none;
+  margin: 0 0 1vw 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.Information-buttons {
+  margin: 10px 0 0;
+}
+.Information button {
+  box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  background-color: #63b8ee;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #3866a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #14396a;
+  font-family: Arial;
+  font-size: 1vw;
+  font-weight: bold;
+  text-decoration: none;
+  width: 10vw;
+  height: 3vw;
+  outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .Information-content {
+    margin-top: 20vw;
+  }
+
+  .Information-head h2 {
+    font-size: 4vmin;
+    margin-bottom: 5vmin;
+  }
+
+  .Information-buttons {
+    width: 80vw;
+  }
+  .Information-sidebar {
+  }
+
+  .Information-sidebar h3 {
+    font-size: 3vmin;
+  }
+
+  .Information-back {
+    margin: 1vw 0 0 0;
+    font-size: 3.5vmin;
+  }
+  .Information-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 0.1vw solid #eee;
+  }
+  .Information-element h4 {
+    margin: 0;
+    font-size: 2vmin;
+  }
+  h2 {
+    margin: 0 0 1vw 0;
+    padding: 0;
+    font-size: 2vmin;
+  }
+  h3 {
+    font-size: 2vmin;
+    margin: 0 0 8px 0;
+    padding: 0;
+  }
+
+  .Information-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Information-form form {
+    width: 95%;
+  }
+
+  input {
+    border-radius: 10vmin;
+    font-size: 3.5vmin;
+    padding-left: 10vmin;
+    height: 10vmin;
+    width: 95%;
+    margin: 0 0 10vmin 0;
+  }
+  .Information-buttons {
+    margin: 10px 0 0;
+  }
+  .Information button {
+    border: 0.1vw solid #3866a3;
+    border-radius: 10vmin;
+    font-size: 2.5vmin;
+    width: 20vmin;
+    height: 10vmin;
+  }
+}

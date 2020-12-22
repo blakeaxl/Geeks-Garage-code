@@ -1,0 +1,214 @@
+.Products {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-banner {
+  margin-top: -5vw;
+  width: 100vw;
+  box-shadow: 1px 8px 21px 1px #000000;
+}
+
+.Products-intro {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-company-background {
+  width: 100vw;
+  height: 30vw;
+}
+
+.sony {
+  background-color: #1e3da1;
+}
+
+.xbox {
+  background-color: #23a11e;
+}
+
+.nintendo {
+  background-color: #bd1f1f;
+}
+
+.Products-xbox {
+  margin-top: 20vw;
+}
+
+.Products-nintendo {
+  margin-top: 20vw;
+}
+
+.company-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-company-description {
+  margin-top: 20vw;
+  margin-bottom: 10vw;
+  font-size: 2vw;
+  width: 80vw;
+  text-align: center;
+}
+
+.Products-intro h3 {
+  font-size: 3vw;
+  color: black;
+}
+
+.Products-intro p {
+  font-size: 2vw;
+  color: black;
+}
+
+.Products-items {
+  width: 100vw;
+  justify-content: center;
+  grid-template-columns: 28vw 28vw 28vw;
+  grid-gap: 2vw;
+  display: grid;
+  margin-top: -15vw;
+}
+.Products-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 9px 11px 25px 0px black;
+  border-radius: 1vw;
+  width: 25vw;
+  height: 30vw;
+  background-color: #fff;
+  position: relative;
+}
+.Products-item-info {
+  width: 90%;
+}
+.Products-item-info h2 {
+  font-size: 1.2vw;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.Products-item-info h2 span {
+  color: #33b13a;
+}
+.Products-item-info p {
+  font-size: 1vw;
+  font-weight: 300;
+}
+.Products-item img {
+  width: 100%;
+  height: 15vw;
+  border-radius: 5px 5px 0 0;
+  object-fit: contain;
+}
+.Products-item button {
+  position: absolute;
+  top: 28vw;
+  left: 17vw;
+  color: black;
+  box-shadow: 9px 11px 25px 0px black;
+  border-color: transparent;
+  width: 40%;
+  padding: 1vw;
+  border-radius: 1vw;
+  outline: none;
+  cursor: pointer;
+  font-size: 1vw;
+  font-weight: 300;
+  transition: 0.3s ease;
+}
+.Products-item button:hover {
+  background-color: lightgray;
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .Products-banner {
+    display: none;
+  }
+
+  .Products-intro {
+    margin-top: 25vmin;
+    margin-bottom: 50vmin;
+  }
+
+  .Products-intro h3 {
+    font-size: 6.5vmin;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .Products-intro p {
+    font-size: 5vmin;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .Products-company-background {
+    height: 500vmin;
+  }
+
+  .Products-company-description {
+    font-size: 5vmin;
+    margin-top: 80vmin;
+    margin-bottom: 80vmin;
+  }
+
+  .Products-items {
+    grid-template-columns: 90vmin;
+    grid-template-rows: 100vmin 100vmin 100vmin;
+    grid-gap: 40vmin;
+    margin-top: 0;
+    position: absolute;
+    margin-top: -110vmin;
+  }
+
+  .Products-item {
+    width: 90vmin;
+    height: 120vmin;
+    justify-content: flex-start;
+  }
+
+  .Products-item img {
+    height: 75vmin;
+    width: 100%;
+    margin-top: 5vmin;
+  }
+
+  .Products-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Products-item-info h2 {
+    font-size: 5vmin;
+    width: 95%;
+  }
+
+  .Products-item-info p {
+    font-size: 3.5vmin;
+  }
+
+  .Products-item button {
+    padding: 5vmin;
+    width: 50%;
+    font-size: 3vmin;
+    top: 95%;
+    left: 25%;
+  }
+}

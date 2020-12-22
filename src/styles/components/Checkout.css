@@ -1,0 +1,99 @@
+.Checkout-container {
+  width: 90vw;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2vw;
+  grid-row-gap: 1.5vw;
+  display: grid;
+}
+
+.Checkout-title {
+  font-size: 1.5vw;
+}
+
+.Checkout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+.Checkout-item .fas {
+  margin: 0 0 0 10px;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.Checkout-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Checkout-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 0.1vw solid #eee;
+}
+.Checkout-element h4 {
+  font-size: 1vw;
+  margin: 0;
+}
+
+.Checkout-element span {
+  font-size: 1vw;
+}
+
+.Checkout-sidebar button {
+  box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+  background-color: #63b8ee;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-decoration: none;
+  width: 80%;
+  height: 3vw;
+  display: block;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .Checkout-container {
+    grid-template-columns: 100%;
+    grid-gap: 10vmin;
+    grid-row-gap: 10vmin;
+  }
+
+  .Checkout-title {
+    font-size: 4vmin;
+  }
+
+  .Checkout-item {
+    margin: 10vmin 0 0 0;
+  }
+
+  .Checkout-element {
+    border-bottom: 1vmin solid #eee;
+  }
+  .Checkout-element h4 {
+    font-size: 3vmin;
+  }
+
+  .Checkout-element span {
+    font-size: 3vmin;
+  }
+
+  .Checkout-sidebar button {
+    font-size: 3vmin;
+    width: 40%;
+    height: 15vmin;
+  }
+}
